@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ![Screenshot (28)](https://github.com/user-attachments/assets/04891cfd-98a2-49d3-9e40-6e564708bcd4)
 
-![Screenshot (29)](https://github.com/user-attachments/assets/a1230435-0c57-40f4-8016-c50c709efd5)
+![Screenshot (29)](https://github.com/user-attachments/assets/68fefd22-29d5-4172-98bd-b03bd7cb8696)
 
 ![Screenshot (30)](https://github.com/user-attachments/assets/67fe172b-2bc2-4044-a2be-a72ff0a54107)
 
