@@ -1,46 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🛡️ CSAI – Static Security Scan Dashboard (Frontend Only)
 
-## Getting Started
+CSAI is a universal, static frontend dashboard for visualizing security scan results from any tool — not limited to CMS scanners. It is designed as a clean, responsive interface for presenting scan data without requiring a backend or live scan engine.
 
-First, run the development server:
+# ⚠️ This project is frontend-only. No backend, API, or scanning logic is included. It is meant for static display or integration into external pipelines.
 
+🧩 Use Cases
+
+Display results from tools like:
+
+wpscan, joomscan, droopescan, vbscan
+
+nikto, nmap, openvas, clamav, or any other scanner
+
+Embed in reporting systems or dashboards
+
+Offline or air-gapped environments
+
+Static reporting from CI/CD pipelines
+
+✨ Features
+
+📊 Static dashboard built with Next.js and shadcn/ui
+
+🗂️ Organized view of scan results
+
+🕒 Scheduled scan and reporting UIs (non-functional UI only)
+
+
+🛠️ Tech Stack
+
+Next.js
+
+shadcn/ui
+
+Tailwind CSS
+
+Radix UI
+
+Lucide Icons
+
+🚀 Getting Started
 ```bash
+git clone https://github.com/your-org/csai.git
+cd csai
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000
+ to view the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+📂 Structure
+/app        - Pages and routes (Next.js)
+/components - Custom UI components
+/ui         - Shared shadcn/ui components
+/public     - Static assets or sample scan data
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚠️ Disclaimer
 
-## Learn More
+This project is for static visualization only
 
-To learn more about Next.js, take a look at the following resources:
+No dynamic data loading, real-time scans, or backend logic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-![Screenshot (28)](https://github.com/user-attachments/assets/04891cfd-98a2-49d3-9e40-6e564708bcd4)
-
-![Screenshot (29)](https://github.com/user-attachments/assets/68fefd22-29d5-4172-98bd-b03bd7cb8696)
-
-![Screenshot (30)](https://github.com/user-attachments/assets/67fe172b-2bc2-4044-a2be-a72ff0a54107)
-
-![Screenshot (31)](https://github.com/user-attachments/assets/d4eca8d6-3e20-452b-9073-a2767c917b8a)
-
-
+Integrate with your own backend, scanner, or pipeline if needed
