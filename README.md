@@ -81,9 +81,9 @@ JWT_SECRET="your-strong-jwt-secret"
 
 You'll need basic API endpoints for:
 
- - src/app/api/signup — Create new user
+ - src/app/api/users/signup — Create new user
 
- - src/app/api/login — Validate user and issue JWT
+ - src/app/api/users/login — Validate user and issue JWT
 
  - Middleware to protect dashboard route using JWT
 
