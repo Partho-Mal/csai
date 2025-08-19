@@ -51,7 +51,7 @@ Display results from tools like:
 
 🚀 Getting Started
 ```bash
-git clone https://github.com/your-org/csai.git
+git clone https://github.com/Partho-Mal/csai.git
 cd csai
 npm install
 npm run dev
@@ -66,7 +66,7 @@ To enable login/signup functionality using MongoDB:
 
 1. Set up MongoDB
 
-Create a MongoDB database (e.g. using MongoDB Atlas )
+Create a MongoDB database (e.g. using [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database) )
 Copy your **MongoDB URI** - it looks like this:
 ```php-template
 mongodb+srv://<username>:<password>@cluster0.mongodb.net/<your-db>?retryWrites=true&w=majority
