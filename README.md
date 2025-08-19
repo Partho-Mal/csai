@@ -88,11 +88,11 @@ You'll need basic API endpoints for:
  - Middleware to protect dashboard route using JWT
 
 > 📦 This is not included in the static version — but you can integrate NextAuth.js
- or build your own API routes in /pages/api/.
+ or build your own API routes in /app/api/.
 
 4. Redirect on successful login
 
-Modify your login logic to route users to the dashboard:
+Modify your login logic to route users to the dashboard: at `src/app/login/page.tsx`
 ```js
 router.push('/dashboard');
 ```
