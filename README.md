@@ -1,4 +1,4 @@
-## 🛡️ CSAI - Static Security Scan Dashboard (Frontend Only)
+## CyberShield - Static Security Scan Dashboard (Frontend Only)
 
 CSAI is a universal, static frontend dashboard for visualizing security scan results from any tool not limited to CMS scanners. It is designed as a clean, responsive interface for presenting scan data without requiring a backend or live scan engine.
 
