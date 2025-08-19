@@ -85,7 +85,7 @@ You'll need basic API endpoints for:
 
  - Middleware to protect dashboard route using JWT
 
-📦 This is not included in the static version — but you can integrate NextAuth.js
+> 📦 This is not included in the static version — but you can integrate NextAuth.js
  or build your own API routes in /pages/api/.
 
 4. Redirect on successful login
