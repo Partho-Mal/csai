@@ -11,9 +11,9 @@ No backend, API, or scanning logic is included. It is meant for static display o
 
 Display results from tools like:
 
- - wpscan, joomscan, droopescan, vbscan
+ - `wpscan`, `joomscan`, `droopescan`, `vbscan`
 
- - nikto, nmap, openvas, clamav
+ - `nikto`, `nmap`, `openvas`, `clamav`
 
  - Embed in reporting systems or dashboards
 
@@ -23,7 +23,9 @@ Display results from tools like:
 
 ✨ Features
 
- - 📊 Static dashboard built with Next.js and shadcn/ui
+ - 📊 Static dashboard built with **Next.js** and **shadcn/ui**
+
+ - 🔐 login/signup with **MongoDB** for controlled access
 
  - 🗂️ Organized view of scan results
 
@@ -65,11 +67,11 @@ To enable login/signup functionality using MongoDB:
 1. Set up MongoDB
 
 Create a MongoDB database (e.g. using MongoDB Atlas )
-Copy your MongoDB URI — it looks like this:
+Copy your **MongoDB URI** - it looks like this:
 ```php-template
 mongodb+srv://<username>:<password>@cluster0.mongodb.net/<your-db>?retryWrites=true&w=majority
 ```
-2. Create a .env.local file in the project root
+2. Create a `.env.local` file in the project root
 ```env
 MONGODB_URI="your-mongodb-uri-here"
 JWT_SECRET="your-strong-jwt-secret"
@@ -109,7 +111,7 @@ router.push('/dashboard');
 
 ⚠️ Disclaimer
 
- - This project is for static visualization only by default
+ - This project is for **static visualization** only by default
 
  - No dynamic scan logic or live integration is included
 
